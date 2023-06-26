@@ -62,9 +62,7 @@ class QueueTest extends TestCase
         return $this->assertEquals(Queue::MAX_ITEMS, self::$queue->getCount());
     }
     
-    /**
-     * @depends
-     */
+    
     public function testExceptionThrownWhenAddingAnItemToFullQueue() 
     {
         for ($i = 0; $i < Queue::MAX_ITEMS; $i++) {

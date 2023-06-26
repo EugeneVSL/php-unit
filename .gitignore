@@ -473,14 +473,6 @@ composer.lock
 *.css.map
 *.sass.map
 *.scss.map
-@johuder33
-johuder33 commented Oct 31, 2021
-
-Thank you for your good .gitignore :)
-@iNilo
-iNilo commented Mar 8, 2022
-
-++
 
 # serverless files
 .serverless
